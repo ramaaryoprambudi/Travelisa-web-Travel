@@ -1,0 +1,406 @@
+body{
+    background-color: white;
+}
+
+/* navbar */
+.navbar-brand img{
+    max-height: 40px;
+}
+
+.navbar-light .navbar-nav  .nav-link{
+    color: #071C4D !important;
+    font-family: 'Assistant' , sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #071C4D !important;
+    font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item{
+    color: #071C4D !important;
+    font-family: 'Assistant' ,  sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-navbar-right{
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;   
+    margin-right: -18px !important;
+    height: 68px;
+    width: 130px;
+    border-radius: 0px;
+}
+
+.btn-login{
+    color: white;
+    background: #071C4D;
+    font-family: 'Assistant' ,sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.btn-login:hover{
+    color: white;
+    background: #25489a;
+    cursor: pointer;
+}
+
+/* header */
+
+.jumbotron{
+    background-image: url(/images/Header.jpg) ;
+    background-size: cover ;
+    margin-top: -70px;
+    padding-bottom: 110px;
+    
+}
+
+.title-jumbotron{
+    padding-top: 110px;
+    padding-bottom: 20px;
+    color: white;
+    font-family: 'Playfair Display' , serif;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.caption-jumbotron{
+    padding-top: 10px;
+    color: white;
+    font-family: 'Assistant' , sans-serif;
+    font-size: 22px !important;
+    font-weight: normal;
+    padding-bottom: 50px !important;
+}
+
+.btn-get-started{
+    background-color:#ff9748 ;
+    margin-top: -30px !important;
+}
+
+.btn-jumbotron-get-started{
+    color: white;
+    font-family: 'Assistant' , sans-serif;
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+.btn-get-started:hover{
+    color: white;
+    background-color:#ffb781 ;
+    cursor: pointer;
+}
+
+/* statistiik */
+.section-stats{
+    margin-top: -70px;
+}
+
+.stats-detail{
+    background-color: white;
+    margin-top: 18px;
+    padding-top: 16px;
+    padding-left: 15px;
+}
+
+.section-stats .stats-detail .stats-people{
+    margin-right: 20px;
+   
+    
+}
+
+.stats-detail  ,h2{
+    color: #071C4D;
+    font-family: 'Assistant' , sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.stats-detail p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #071C4D;
+}
+
+/* wisata popular */
+.section-popular{
+    background-color: #0E053B;
+    min-height: 540px;
+    margin-top: -88px;
+    margin-bottom: -210px;
+}
+
+.section-popular .section-popular-heading{
+    margin-top: 26px;
+    padding-top: 63px;
+    padding-bottom: 61px;
+}
+
+.section-popular .section-popular-heading h2 , .section-popular .section-popular-heading p{
+    color: white;
+}
+
+.section-popular .section-popular-heading p{
+    font-family: 'Assistant' , sans-serif;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 26px;
+    font-size: 17px;
+}
+
+.text-popular{
+    padding-top: 47px;
+    font-family: 'Assistant' ,sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.section-popular-content .section-popular-travel .card-travel{
+    min-height: 370px;
+    padding: 37px;
+    margin-bottom: 30px;
+    background-size: cover;
+    height: auto;
+}
+
+
+.travel-country{
+    color: white;
+    font-family: 'Assistant' ,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.travel-location{
+    color: white;
+    font-family: 'Assistant' , sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+
+.btn-travel-detail{
+    background-color:#FF9E53;
+    color: white;
+    font-family: 'Assistant' , sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    min-width: 170px;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+
+
+.btn-travel-detail:hover{
+    background-color:#ffc08f;
+    color: white;
+    cursor: pointer;
+}
+
+.section-networks{
+    background-color: white;
+  margin-top: -170px;
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+
+.section-networks h2{
+    font-family: 'Playfair Display' ,serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #071C4D;
+}
+
+.section-networks p{
+    font-family: 'Assistant' ,sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #071C4D !important; 
+    padding-top: 12px;
+}
+
+.section-networks img{
+    max-width: 700px;
+    margin-right: 110px;
+    margin-left: -10px;
+    padding-bottom: 121px;
+  
+}
+
+
+/* TESTIMONIAL */
+.section-testimonial{
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    min-height: 506px;
+    padding-top: 50px;
+    color: #071C4D;
+}
+
+.section-testimonial h4{
+    font-family: 'Playfair Display' , serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section-testimonial p{
+    font-family: 'Assistant' , sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+
+/* TESTIMONIAL CARD  */
+.section-testimonial-card{
+    margin-top: -250px;
+    padding: 40px 20px 10px;
+}
+
+.card-testimonial{
+    margin-bottom: 30px;
+}
+
+.testimonial-content{
+    min-height: 493px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.Testimonial-name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Assistant' , sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #071C4D;
+}
+
+.testimonial-text{
+    font-family: 'Assistant' , sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    text-align: center;
+    color: #6E6E6E;
+}
+
+.section-testimonial-card hr{
+    margin-right: -3px;
+    margin-left:-3px;
+    margin-top: 30px;
+}
+
+.trip-to{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Assistant' , sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #6E6E6E;
+}
+
+/* FOOTER */
+.section-footer a{
+    text-decoration: none;
+    color: #071C4D;
+}
+
+.section-footer li{
+    margin-top: 10px;
+    font-family: 'Assistant' , sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.section-footer h5{
+    font-family: 'Assistant' , sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.section-footer a:hover{
+    color: #FF9E53;
+}
+
+.section-address{
+    margin-top: 50px;
+}
+.section-address h5{
+    padding-top: 30px;
+    font-family: 'Assistant' , sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #6E6E6E;
+}
+
+
+/* MOBILE VERSION */
+@media (max-width: 576px) { 
+
+/* statistiik */
+    .stats-detail .stats-people{
+        font-size: 16px;
+        padding-right: 40px;
+    }
+
+
+
+
+
+
+
+ /* NETWROKS    */
+ .section-networks img{
+    max-width: 700px;
+    margin-right: 110px;
+    margin-left: -10px;
+    padding-bottom: 121px;
+   max-width: 370%;
+   height: auto;
+}
+ }
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) { 
+  
+  
+/* header */
+    .jumbotron{
+        margin-top: -70px;
+        height: 650px;
+    }
+
+    .title-jumbotron{
+    font-size: 50px;
+    }
+
+    .caption-jumbotron{
+    font-size: 22px !important;
+    }
+
+
+
+/* statistik */
+.stats-detail{
+    padding-left: 45px;
+}
+
+
+
+
+/* wisata popular */
+
+.section-popular .section-popular-heading p{
+    font-size: 18px;
+}
+.text-popular{
+    font-size: 65px;
+}
+
+}
